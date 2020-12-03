@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Iron</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <!-- home page list -->
+    <string name="normal_str_cal">一般构件及计算</string>
+    <string name="pillar_str">柱标准构件</string>
+    <string name="scissor_wall_str">剪刀墙标准构件</string>
+    <string name="beam_str_str">梁标准构件</string>
+    <string name="stairs_wall_str">楼梯标准构件</string>
+    <string name="floor_str_str">楼板标准构件</string>
+    <string name="founder_str_str">基础标准构件</string>
+    <string name="pdefence_str_str">人防标准构件</string>
+    
+</resources>
