@@ -7,4 +7,23 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <!-- 自定义颜色选择控件  -->
+    <color name="frosty_white">#DDE8F4</color>
+    <color name="toscana_white">#ECECE9</color>
+    <color name="ember_white">#932D07</color>
+    <color name="sunset">#F14E12</color>
+    <color name="rain_forest">#55672D</color>
+    <color name="glacier_blue">#7DB8D1</color>
+    <color name="grape_yard">#600D41</color>
+
+
+
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+
+
 </resources>
