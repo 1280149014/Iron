@@ -40,20 +40,20 @@ class  HomeFragment : Fragment() {
 
 
         mutableMapOf = mutableMapOf()
-        mutableMapOf.put("a",1)
-        mutableMapOf.put("b",2)
-        mutableMapOf.put("c",3)
-        mutableMapOf.put("d",4)
-        mutableMapOf.put("2",1)
-        mutableMapOf.put("2",2)
-        mutableMapOf.put("2",3)
-        mutableMapOf.put("a",4)
+        mutableMapOf.put(getString(R.string.normal_str_cal),1)
+        mutableMapOf.put(getString(R.string.pillar_str),2)
+        mutableMapOf.put(getString(R.string.scissor_wall_str),3)
+        mutableMapOf.put(getString(R.string.beam_str_str),4)
+        mutableMapOf.put(getString(R.string.stairs_wall_str),5)
+        mutableMapOf.put(getString(R.string.floor_str_str),5)
+        mutableMapOf.put(getString(R.string.founder_str_str),6)
+        mutableMapOf.put(getString(R.string.pdefence_str_str),7)
 
         var i = 0 ;
-        while (i < 100){
-            mutableMapOf.put("" + i , i)
-            i++
-        }
+//        while (i < 100){
+//            mutableMapOf.put("" + i , i)
+//            i++
+//        }
 
 
         var myAdapter = activity?.let { BaseRecyclerAdapter(it, mutableMapOf) }

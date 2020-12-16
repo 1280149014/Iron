@@ -22,4 +22,12 @@
     <string name="founder_str_str">基础标准构件</string>
     <string name="pdefence_str_str">人防标准构件</string>
 
+    <!-- 一般构件及计算 -->
+    <string name="steel_weight_size_search">钢筋重量及尺寸查询</string>
+    <string name="steel_strength_search">钢筋强度查询</string>
+    <string name="steel_pre_strength_level">预应力筋强度等级</string>
+    <string name=""
+
+
+
 </resources>
