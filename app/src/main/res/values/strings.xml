@@ -11,7 +11,6 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
-
     <!-- home page list -->
     <string name="normal_str_cal">一般构件及计算</string>
     <string name="pillar_str">柱标准构件</string>
@@ -26,8 +25,69 @@
     <string name="steel_weight_size_search">钢筋重量及尺寸查询</string>
     <string name="steel_strength_search">钢筋强度查询</string>
     <string name="steel_pre_strength_level">预应力筋强度等级</string>
-    <string name=""
+    <string name="concrete_strength_level">混凝土强度等级</string>
+    <string name="concrete_protect_min_level">砼保护层最小厚度</string>
+    <string name="concrete_environment">砼结构环境类别</string>
+    <string name="anchor_length">锚固及搭接长度查询</string>
+    <string name="steel_length">钢筋下料长度</string>
+    <string name="normal_structure">一般构造</string>
+    <string name="steel_primary_exchange">钢筋基本代换</string>
+
+    <string name="normal_steel">一般钢筋</string>
+    <string name="hot_grind_steel">热轧钢筋</string>
+    <string name="cold_grind_steel">冷轧钢筋</string>
+
+    <string name="diameter_unit">公称直径mm</string>
+    <string name="cross_section_unit">截面面积mm</string>
+    <string name="weight_unit">单重kg/m</string>
+    <string name="round_steel_unit">预应螺纹钢筋kg/m</string>
+
+    <string name="x_axis_moment_of_inertia">x轴惯性矩</string>
+    <string name="y_axis_moment_of_inertia">y轴惯性矩</string>
+    <string name="x_axis_radius_of_gyration">x轴惯性半径</string>
+    <string name="y_axis_radius_of_gyration">y轴惯性半径</string>
+    <string name="x_axis_section_modulus">x轴截面模量</string>
+    <string name="y_axis_section_modulus">y轴截面模量</string>
+
+    <string name="calculate_module">计算模式</string>
+    <string name="weight_calculate">重量计算</string>
+    <string name="length">长度</string>
+    <string name="count">根数</string>
+    <string name="length_calculate_weight">根据长度计算钢材总重</string>
+    <string name="tension_member_strength">受拉构件的刚度</string>
+    <string name="long_axis_ratio_of_tie_rod">拉杆长轴比</string>
+    <string name="calculate_length">计算长度</string>
+    <string name="main_axis_move_moment_of_inertia">主轴平移后的惯性矩</string>
+    <string name="axis_move_moment_of_inertia">惯性矩移轴</string>
+    <string name="move_length">平移距离</string>
+
+    <string name="internal_diameter">内径</string>
+    <string name="rib_height">肋高</string>
+    
+    <string name="mark">牌号</string>
+
+    <string name="steel_mark">钢筋牌号</string>
+    <string name="yield_strength_standard_value">屈服强度标准值</string>
+    <string name="limit_strength_standard_value">极限强度标准值</string>
+    <string name="tensile_strength_design_value">抗拉强度设计值</string>
+    <string name="compressive_strength_design_value">抗压强度设计值</string>
+    <string name="modulus_of_elasticity">弹性模量</string>
+    
+<!--    砼强度等级-->
+    <string name="axial_compression_strength_standard_value">轴心抗压强度标准值</string>
+    <string name="axial_compression_strength_design_value">轴心抗压强度标准值</string>
+    <string name="axial_tensile_strength_design_value">轴心抗拉强度设计值</string>
+    <string name="axial_tensile_strength_standard_value">轴心抗拉强度标准值</string>
+
+<!--    弹性模量-->
+    <string name="fatigue_deformation_modulus_value">疲劳变形模量</string>
+
+    <string name="environment_type">环境类别</string>
+    <string name="structure_type">结构类型</string>
+    <string name="steel_diameter"> 钢筋的公称直径</string>
+    <string name="design_usage_time">设计使用年限</string>
 
 
+<!--    砼强度等级-->
 
 </resources>
