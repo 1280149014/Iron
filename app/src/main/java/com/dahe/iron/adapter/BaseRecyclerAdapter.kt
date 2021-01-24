@@ -24,6 +24,18 @@ public class BaseRecyclerAdapter(mainActivity: Activity,
     var alist = ArrayList<String>()
     var blist = ArrayList<Int>()
 
+    private var itemClickListener: IKotlinItemClickListener? = null
+
+    // 提供set方法
+    fun setOnKotlinItemClickListener(itemClickListener: IKotlinItemClickListener) {
+        this.itemClickListener = itemClickListener
+    }
+
+    //自定义接口
+    interface IKotlinItemClickListener {
+        fun onItemClickListener(position: Int)
+    }
+
     init {
         for (data in datas.keys){
             alist.add(data)
@@ -42,6 +54,9 @@ public class BaseRecyclerAdapter(mainActivity: Activity,
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.tv_item_text.setText(alist[position])
+        holder.tv_item_text.setOnClickListener {
+            this.itemClickListener!!.onItemClickListener(position);
+        }
     }
 
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
