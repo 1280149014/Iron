@@ -53,15 +53,18 @@ public class BaseRecyclerAdapter(mainActivity: Activity,
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.tv_item_text.setText(alist[position])
-        holder.tv_item_text.setOnClickListener {
+        holder.itemTextView.setText(alist[position])
+        holder.layout.setOnClickListener {
             this.itemClickListener!!.onItemClickListener(position);
         }
+
+
+
     }
 
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        var tv_item_text : TextView = itemView.findViewById(R.id.text)
-        var layout : View = itemView.findViewById(R.id.text)
+        var itemTextView : TextView = itemView.findViewById(R.id.text)
+        var layout : View = itemView.findViewById(R.id.item_layout)
     }
 
 

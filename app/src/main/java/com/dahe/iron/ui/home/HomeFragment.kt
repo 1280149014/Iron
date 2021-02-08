@@ -4,8 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -29,8 +27,7 @@ class  HomeFragment : Fragment() {
     ): View? {
         homeViewModel =
                 ViewModelProvider(this).get(HomeViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
-        return root
+        return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -57,8 +54,7 @@ class  HomeFragment : Fragment() {
 
         myAdapter!!.setOnKotlinItemClickListener(object : BaseRecyclerAdapter.IKotlinItemClickListener{
             override fun onItemClickListener(position: Int) {
-
-                Toast.makeText(App.appContext,"" + position,Toast.LENGTH_LONG).show()
+                Toast.makeText(App.appContext,"" + position,Toast.LENGTH_SHORT).show()
             }
         });
 
